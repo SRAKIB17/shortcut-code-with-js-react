@@ -45,6 +45,7 @@
 
 Create a file in a `/src` like: `scrollBar.js`
 
+copy index.js code and paste scrollBar.js file
 
 Paste at the the `/src/scrollBar.js`:
 ```bash
