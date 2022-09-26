@@ -1,0 +1,70 @@
+#scrollingDiv {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    scrollbar-width: none;
+}
+
+
+#scrollingDiv * {
+    z-index: -1;
+}
+
+#scrollingDiv::-webkit-scrollbar {
+    display: none;
+}
+
+/* ************ FOR LEFT BUTTON*********** */
+#scrollingDiv button:where(#prev) {
+    position: sticky;
+    top: 40%;
+    left: 0%;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#scrollingDiv button:where(#prev)::after {
+    content: '<';
+}
+
+
+#scrollingDiv button:where(#prev):hover {
+    opacity: 1;
+}
+/* ***************FOR RIGHT ***************** */
+
+#scrollingDiv button:where(#next) {
+    position: sticky;
+    top: 0%;
+    right: 0px;
+    background-color: rebeccapurple;
+}
+
+
+#scrollingDiv button:where(#next) {
+    position: sticky;
+    top: 40%;
+    left: 0%;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#scrollingDiv button:where(#next)::after {
+    content: '>';
+}
+
+#scrollingDiv button:where(#next):hover {
+    opacity: 1;
+}
