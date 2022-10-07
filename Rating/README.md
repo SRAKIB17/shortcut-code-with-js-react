@@ -2,7 +2,7 @@
 
 # Rating Indicator
 
-## Currently v1.0.0
+## Currently v2.0.0
 
 
 <br/>
