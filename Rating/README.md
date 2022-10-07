@@ -244,5 +244,5 @@ const Rating = ({ rating, size = 16, mask }) => {
     </div>
   )
 }
-
+export default Rating;
 ```
