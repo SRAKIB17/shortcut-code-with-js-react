@@ -156,14 +156,12 @@
 
 # For React App:
 
-| props                       | Description                            |
-| --------------------------- | -------------------------------------- |
-| page                        | Current page number                    |
-| lastPage:                   | Total page. Like                       |
-| --borderRadius: 0.5rem;     | Border radius for first and last child |
-| --align-main-div: center;   | Parent Div align                       |
-| --buttonSize: 30px;         | Button size                            |
-| --padding-mainDiv: 8px 0px; | For parent div top and bottom padding  |
+| props      | Description         |
+| ---------- | ------------------- |
+| page       | Current page number |
+| lastPage:  | Total page.         |
+| pageHandle | Page Handler        |
+
 
 ### How to get lastPage?
 
