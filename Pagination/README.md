@@ -166,7 +166,6 @@
 ### How to get lastPage?
 
 
-const [getPage, setPage] = useState(1); const [show, setShow] = useState(50); const [lastPage, setLastPage] = useState(); 
 
 ```javascript
 const [getPage, setPage] = useState(1);
