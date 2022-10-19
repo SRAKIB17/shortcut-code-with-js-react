@@ -12,7 +12,7 @@
 # Installation For Html code:
 
 #### Common HTML Page: `/index.js`<small>(Copy and paste at the end of the body tag)</small>
-```bash javascript
+``` javascript
 
 const ratingArray = document.querySelectorAll('.rating');
 for (const eachRating of ratingArray) {
@@ -146,7 +146,7 @@ for (const eachRating of ratingArray) {
 ```
 
 ### DEMO:
-```bash html
+``` html
   <div class="rating" data-rating="2.1" data-mask="heart" data-size="20">
   </div>
 ```
@@ -176,7 +176,7 @@ for (const eachRating of ratingArray) {
 | mask   | rating style. Default value `star`. `star | heart` |
 
 
-```bash javascript
+``` javascript
 
 const Rating = ({ rating, size = 16, mask }) => {
 

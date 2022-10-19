@@ -143,7 +143,7 @@
 }
 ```
 
-| props                       | Description                            |
+| CSS Variable                | Description                            |
 | --------------------------- | -------------------------------------- |
 | --disabledButtonBg:         | Disable button background color        |
 | --borderPageColor:          | Active button background color         |
@@ -156,8 +156,64 @@
 
 # For React App:
 
+| props                       | Description                            |
+| --------------------------- | -------------------------------------- |
+| page                        | Current page number                    |
+| lastPage:                   | Total page. Like                       |
+| --borderRadius: 0.5rem;     | Border radius for first and last child |
+| --align-main-div: center;   | Parent Div align                       |
+| --buttonSize: 30px;         | Button size                            |
+| --padding-mainDiv: 8px 0px; | For parent div top and bottom padding  |
 
-```bash javascript
+### How to get lastPage?
+
+
+const [getPage, setPage] = useState(1); const [show, setShow] = useState(50); const [lastPage, setLastPage] = useState(); 
+
+```javascript
+const [getPage, setPage] = useState(1);
+const [show, setShow] = useState(10);
+const [lastPage, setLastPage] = useState(0)
+
+const totalFiles = 100;
+useEffect(() => { 
+    const lastPage =  Math.ceil(totalFiles / show); // lastPage = 10
+    setLastPage(lastPage)
+}, [])
+
+const pageHandle = (jump) => { setPage(jump) }
+
+```
+#### Example:
+
+```javascript
+const [getPage, setPage] = useState(1);
+const [show, setShow] = useState(10);
+const [lastPage, setLastPage] = useState(0)
+
+const totalFiles = 100;
+useEffect(() => { 
+    const lastPage =  Math.ceil(totalFiles / show); // lastPage = 10
+    setLastPage(lastPage)
+}, [])
+
+const pageHandle = (jump) => {
+     setPage(jump)
+}
+return(
+    <div>
+         <Pagination 
+            lastPage={lastPage} 
+            page={getPage} 
+            pageHandle={pageHandle}
+        />
+    </div>
+)
+```
+
+
+
+```javascript
 
 
 const Pagination = ({ pageHandle = () => { }, page, lastPage }) => {
@@ -241,7 +297,7 @@ const Pagination = ({ pageHandle = () => { }, page, lastPage }) => {
 
                 {/* 
 
-                    06. WHEN PAGE == LAST PAGE OR PAGE == LAST PAGE -3 => FALSE THEN THIS BUTTON SHOW....
+                    1.  WHEN PAGE == LAST PAGE OR PAGE == LAST PAGE -3 => FALSE THEN THIS BUTTON SHOW....
 
                 */}
                 {
@@ -256,7 +312,7 @@ const Pagination = ({ pageHandle = () => { }, page, lastPage }) => {
                         </button>
 
                         {/* 
-                            07. WHEN PAGE >= LAST PAGE - 2 OR PAGE == LAST PAGE - 4 => FALSE THEN THIS BUTTON SHOW
+                            1.  WHEN PAGE >= LAST PAGE - 2 OR PAGE == LAST PAGE - 4 => FALSE THEN THIS BUTTON SHOW
                         
                         */}
                         {
