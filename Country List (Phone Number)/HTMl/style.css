@@ -1,0 +1,27 @@
+body {
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    height: 24px;
+    outline: none !important;
+}
+
+input[type=submit] {
+    height: 30px;
+}
+
+#show {
+    padding: 50px;
+    line-height: 28px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 20px;
+    white-space: pre-line;
+}

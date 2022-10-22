@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<body>
+    <div id="show">
+
+    </div>
+    <form>
+
+        <div>
+            <fieldset style="width:50px">
+                <legend>Select Country</legend>
+                <input list="country_list" name="browser" id="country" required />
+                <datalist id="country_list">
+                </datalist>
+            </fieldset>
+
+        </div>
+
+        <div>
+            <fieldset style="width:fit-content;display: flex; align-items: center;">
+                <legend>Enter number</legend>
+                <input list="dial_code" name="browser" id="phoneCode" required disabled="true" style="width:50px;">
+                <datalist id="dial_code">
+                </datalist>
+                <input type="tel" name="" id="phone_number" required>
+            </fieldset>
+
+        </div>
+        <input type="submit" style="width: 100px">
+
+    </form>
+ 
+    <script src="./Country/country.js"></script>
+</body>
+
+</html>
