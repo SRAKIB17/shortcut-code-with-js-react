@@ -1,0 +1,258 @@
+.dashboard {
+    background-color: #E2E7F1;
+    width: 100%;
+    height: 100vh;
+}
+
+#dashboard {
+    position: absolute;
+    top: 0;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+    transition: 0.2s;
+}
+
+/* ******************************************* */
+#mainDashboard {
+    width: calc(100% - 90px);
+    color: #111;
+    position: relative;
+    margin-left: 70px;
+    top: 70px;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+
+#dashboardHeader {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    border-left: 2px solid #E2E7F1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 400px;
+    height: 70px;
+    background-color: #F3F4F7;
+    width: 100%;
+    z-index: 9999;
+}
+
+#dashboardHeader .header {
+    height: inherit;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#dashboardHeader .header button:first-child {
+    margin: 0px 20px;
+    border: none;
+    background-color: transparent;
+}
+
+
+#dashboard_content {
+    margin: 0px 10px;
+    top: 10px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    height: calc(100vh - 90px);
+    overflow: scroll;
+}
+
+@media only screen and (max-width:989px) {
+    #dashboardHeader {
+        margin-left: 70px;
+    }
+}
+
+@media (min-width:990px) {
+    .dashboardHeader {
+        /* max-width: 720px */
+    }
+}
+
+
+
+/* ********************************************* */
+
+#sidenavDashboard {
+    height: 100%;
+    max-width: var(--sidnavDashboardWidth, 70px);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0px;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow-x: hidden;
+    transition: 0.2s;
+}
+
+#sidenavDashboard .dashboardNavSideHeader {
+    width: 100%;
+}
+
+#sidenavDashboard .dashboardNavSideHeader .logo {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#sidenavDashboard .dashboardNavSideHeader .logo img {
+    height: 20px;
+}
+
+#sidenavDashboard::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+
+
+/* FOR  BUTTON STYLE */
+#sidenavDashboard button {
+    display: block;
+    background-color: inherit;
+    color: #343A40;
+    padding: 22px 16px;
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+
+}
+
+/* #sidenavDashboard .dashboardMenu{
+   display: flex;
+   width: inherit;
+} */
+
+#sidenavDashboard button.active {
+    background-color: #ccc;
+    color: #5369F8;
+}
+
+#sidenavDashboard button:hover {
+    background-color: #ddd;
+    color: #5369F8;
+}
+
+/* WIDTH 250px then */
+
+#sidenavDashboard button.withText {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+#sidenavDashboard button.onlyIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sidenavDashboard #buttonTitle {
+    display: none;
+}
+
+/* **************************************** */
+/* **************FOR LOGO************* */
+#sidenavDashboard #full_logo {
+    display: none;
+}
+
+/* ************************************************* */
+/* 
+@media (min-width:200px) {
+    :root {
+        --sidnavDashboardWidth: 0px;
+    }
+
+    #sidenavDashboard {
+        max-width: 0%;
+    }
+
+    #sidenavDashboard button {
+        font-size: 18px;
+    }
+
+    #mainDashboard {
+        margin-left: var(--sidnavDashboardWidth);
+        font-size: 16px;
+    }
+
+    #mainDashboard #openModal {
+        display: block;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --sidnavDashboardWidth: 200px;
+    }
+
+    #sidenavDashboard button {
+        font-size: 18px;
+    }
+
+    #mainDashboard {
+        margin-left: var(--sidnavDashboardWidth);
+        font-size: 16px;
+    }
+
+    #mainDashboard #openModal {
+        display: none;
+    }
+}
+
+
+@media (min-width:992px) {
+    :root {
+        --sidnavDashboardWidth: 200px;
+    }
+
+    #sidenavDashboard {
+        max-width: var(--sidnavDashboardWidth);
+    }
+
+    #mainDashboard {
+        margin-left: var(--sidnavDashboardWidth);
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --sidnavDashboardWidth: 300px;
+    }
+
+    #sidenavDashboard {
+        padding-left: 20px !important;
+        max-width: var(--sidnavDashboardWidth);
+    }
+
+    #mainDashboard {
+        margin-left: var(--sidnavDashboardWidth);
+        font-size: 28px;
+    }
+} */
