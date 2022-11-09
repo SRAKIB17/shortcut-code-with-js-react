@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { gridArray } from './constant';
+import { gridArray, month as monthArr } from './constant';
 import Plus_increase_zoom_add_new from './Plus_increase_zoom_add_new';
 
 const CalenderDateContainer = ({ year, month }) => {
-    const [date, setDate] = useState(1);
-    const getFullDate = new Date(year, month, date);
+    const getFullDate = new Date(year, month, 1);
     const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const startIndex = getFullDate.getDay();
 
-    const startIndex = getFullDate.getDay()
-    const endIndex = new Date(year, month, 0)?.getDate() + startIndex
-
+    const getLastValue = monthArr[month]
+    const endIndex = new Date(year, getLastValue?.last_index, 0)?.getDate() + startIndex
     return (
         <>
             {

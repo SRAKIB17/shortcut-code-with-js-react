@@ -23,7 +23,7 @@ const SelectYearMonth = ({ selectMonth, setSelectMonth, selectYear, setSelectYea
                 >
                     {
                         month.map((m, i) =>
-                            <option value={m.value} key={i}>{m.month}</option>)
+                            <option value={m.start_index} key={i}>{m.month}</option>)
                     }
 
                 </select>

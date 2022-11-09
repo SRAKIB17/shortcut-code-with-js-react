@@ -21,50 +21,62 @@ export const monthOptions = [
 export const month = [
   {
     month: "January",
-    value: 1,
+    last_index: 1,
+    start_index: 0,
   },
   {
     month: "February",
-    value: 2,
+    last_index: 2,
+    start_index: 1,
   },
   {
     month: "March",
-    value: 3,
+    last_index: 3,
+    start_index: 2,
   },
   {
     month: "April",
-    value: 4,
+    last_index: 4,
+    start_index: 3,
   },
   {
     month: "May",
-    value: 5,
+    last_index: 5,
+    start_index: 4,
   },
   {
     month: "July",
-    value: 6,
+    last_index: 6,
+    start_index: 5,
   },
   {
     month: "July",
-    value: 7,
+    last_index: 7,
+    start_index: 6,
   },
   {
     month: "August",
-    value: 8,
+    last_index: 8,
+    start_index: 7,
   },
   {
     month: "September",
-    value: 9,
+    last_index: 9,
+    start_index: 8,
   },
   {
     month: "October",
-    value: 10,
+    last_index: 10,
+    start_index: 9,
   },
   {
     month: "November",
-    value: 11,
+    last_index: 11,
+    start_index: 10,
   },
   {
     month: "December",
-    value: 0,
+    last_index: 0,
+    start_index: 11,
   }
 ];

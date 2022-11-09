@@ -5,7 +5,7 @@ import SelectYearMonth from './SelectYearMonth';
 const Calender = () => {
     const [selectYear, setSelectYear] = useState('2022');
     const [selectMonth, setSelectMonth] = useState('0');
-
+    const [date, setDate] = useState(1)
     return (
         <div className=''>
 
@@ -23,6 +23,7 @@ const Calender = () => {
                     <CalenderDateContainer
                         month={selectMonth}
                         year={selectYear}
+                        date={date}
                     />
                 </div>
             </div>
