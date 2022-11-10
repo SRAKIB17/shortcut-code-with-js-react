@@ -1,0 +1,136 @@
+:root {
+    ---selectTagsSpanBg: #1AB57D;
+    ---selectTagsSpanColor: white;
+    ---borderRadius: 2px;
+    ---selectTagsSpanDeleteHover: #00ffa2;
+    ---autoCompleteInputBorder: 1px solid rgba(184, 177, 177, 0.64);
+    ---autoCompleteInputOutlineHover: 2px solid #98CBFF;
+
+    ---autoSuggestionBg: #F6F6F6;
+    ---autoSuggestionHoverBg: white;
+    ---autoSuggestionColor: ;
+    ---autoSuggestionHover: '';
+}
+
+#autoCompleteMain {
+    display: flex;
+    border-radius: var(---borderRadius);
+    align-items: center;
+    border: var(---autoCompleteInputBorder);
+    min-height: 3rem;
+    font-size: 0.875rem
+        /* 14px */
+    ;
+    font-size: 1rem
+        /* 16px */
+    ;
+    line-height: 1.25rem
+        /* 20px */
+    ;
+    padding: 4px 6px;
+}
+
+#autoCompleteMain:hover {
+    outline-offset: 2px;
+    outline: var(---autoCompleteInputOutlineHover);
+}
+
+/* ******************************************************************************* */
+#autoCompleteMain .selectTags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+
+#autoCompleteMain .selectTags .selectTag {
+    border-radius: var(---borderRadius);
+    display: flex;
+    color: var(---selectTagsSpanColor);
+    align-items: center;
+    background-color: var(---selectTagsSpanBg);
+    padding: 5px 7px;
+    gap: 4px;
+}
+
+
+#autoCompleteMain .selectTags .selectTag>span:nth-child(2) {
+    cursor: pointer;
+    border-radius: var(---borderRadius);
+    padding: 2px 5px;
+}
+
+
+#autoCompleteMain .selectTags .selectTag>span:nth-child(2):hover {
+    background-color: var(---selectTagsSpanDeleteHover);
+}
+
+/* ******************************************************************************* */
+
+
+#autoCompleteMain .autoCompleteInput {
+    position: relative;
+    display: inline;
+}
+
+#autoCompleteMain .autoCompleteInput .autoTagsSuggestion {
+    position: absolute;
+    height: 200px;
+    margin-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(---autoSuggestionBg);
+}
+
+#autoCompleteMain .autoCompleteInput .autoTagsSuggestion>span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#autoCompleteMain .autoCompleteInput .autoTagsSuggestion>p {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#autoCompleteMain .autoCompleteInput .autoTagsSuggestion>span:hover {
+    background-color: var(---autoSuggestionHoverBg);
+}
+
+#autoCompleteMain .autoCompleteInput input {
+    display: flex;
+    width: 160px;
+    height: 2rem;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    /* 48px */
+    ;
+    padding-left: 1rem
+        /* 16px */
+    ;
+    padding-right: 1rem
+        /* 16px */
+    ;
+    font-size: 0.875rem
+        /* 14px */
+    ;
+    font-size: 1rem
+        /* 16px */
+    ;
+    line-height: 1.25rem
+        /* 20px */
+    ;
+    line-height: 2;
+    line-height: 1.5rem
+        /* 24px */
+    ;
+}
+
+#autoCompleteMain .autoCompleteInput input:focus {
+    outline: none;
+}

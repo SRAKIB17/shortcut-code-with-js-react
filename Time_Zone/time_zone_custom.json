@@ -1,0 +1,1323 @@
+[
+    {
+        "zone": "Pacific",
+        "id": 0,
+        "mean_des": [
+            {
+                "value": "-11:00",
+                "name": "Niue",
+                "mean_time": "GMT-11:00"
+            },
+            {
+                "value": "-11:00",
+                "name": "Pago_Pago",
+                "mean_time": "GMT-11:00"
+            },
+            {
+                "value": "-10:00",
+                "name": "Honolulu",
+                "mean_time": "GMT-10:00"
+            },
+            {
+                "value": "-10:00",
+                "name": "Rarotonga",
+                "mean_time": "GMT-10:00"
+            },
+            {
+                "value": "-10:00",
+                "name": "Tahiti",
+                "mean_time": "GMT-10:00"
+            },
+            {
+                "value": "-09:30",
+                "name": "Marquesas",
+                "mean_time": "GMT-09:30"
+            },
+            {
+                "value": "-09:00",
+                "name": "Gambier",
+                "mean_time": "GMT-09:00"
+            },
+            {
+                "value": "-08:00",
+                "name": "Pitcairn",
+                "mean_time": "GMT-08:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Galapagos",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Easter",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "+09:00",
+                "name": "Palau",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "Chuuk",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "Guam",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "Port_Moresby",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Efate",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Guadalcanal",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Kosrae",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Norfolk",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Noumea",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Pohnpei",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+13:00",
+                "name": "Auckland",
+                "mean_time": "GMT+13:00"
+            },
+            {
+                "value": "+13:00",
+                "name": "Fiji",
+                "mean_time": "GMT+13:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Funafuti",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Kwajalein",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Majuro",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Nauru",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Tarawa",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Wake",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Wallis",
+                "mean_time": "GMT+12:00"
+            },
+            {
+                "value": "+14:00",
+                "name": "Apia",
+                "mean_time": "GMT+14:00"
+            },
+            {
+                "value": "+13:00",
+                "name": "Enderbury",
+                "mean_time": "GMT+13:00"
+            },
+            {
+                "value": "+13:00",
+                "name": "Fakaofo",
+                "mean_time": "GMT+13:00"
+            },
+            {
+                "value": "+13:00",
+                "name": "Tongatapu",
+                "mean_time": "GMT+13:00"
+            },
+            {
+                "value": "+14:00",
+                "name": "Kiritimati",
+                "mean_time": "GMT+14:00"
+            }
+        ]
+    },
+    {
+        "zone": "America",
+        "id": 1,
+        "mean_des": [
+            {
+                "value": "-09:00",
+                "name": "Anchorage",
+                "mean_time": "GMT-09:00"
+            },
+            {
+                "value": "-08:00",
+                "name": "Los_Angeles",
+                "mean_time": "GMT-08:00"
+            },
+            {
+                "value": "-08:00",
+                "name": "Tijuana",
+                "mean_time": "GMT-08:00"
+            },
+            {
+                "value": "-08:00",
+                "name": "Vancouver",
+                "mean_time": "GMT-08:00"
+            },
+            {
+                "value": "-08:00",
+                "name": "Whitehorse",
+                "mean_time": "GMT-08:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Dawson_Creek",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Denver",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Edmonton",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Hermosillo",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Mazatlan",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Phoenix",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-07:00",
+                "name": "Yellowknife",
+                "mean_time": "GMT-07:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Belize",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Chicago",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Costa_Rica",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "El_Salvador",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Guatemala",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Managua",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Mexico_City",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Regina",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Tegucigalpa",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-06:00",
+                "name": "Winnipeg",
+                "mean_time": "GMT-06:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Bogota",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Cancun",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Cayman",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Guayaquil",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Havana",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Iqaluit",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Jamaica",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Lima",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Nassau",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "New_York",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Panama",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Port-au-Prince",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Rio_Branco",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-05:00",
+                "name": "Toronto",
+                "mean_time": "GMT-05:00"
+            },
+            {
+                "value": "-04:30",
+                "name": "Caracas",
+                "mean_time": "GMT-04:30"
+            },
+            {
+                "value": "-03:00",
+                "name": "Asuncion",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Barbados",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Boa_Vista",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Campo_Grande",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Cuiaba",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Curacao",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Grand_Turk",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Guyana",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Halifax",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "La_Paz",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Manaus",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Martinique",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Port_of_Spain",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Porto_Velho",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Puerto_Rico",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Santo_Domingo",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-04:00",
+                "name": "Thule",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-03:30",
+                "name": "St_Johns",
+                "mean_time": "GMT-03:30"
+            },
+            {
+                "value": "-03:00",
+                "name": "Araguaina",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Argentina",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Bahia",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Belem",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Cayenne",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Fortaleza",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Godthab",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Maceio",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Miquelon",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Montevideo",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Paramaribo",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Recife",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Santiago",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-02:00",
+                "name": "Sao_Paulo",
+                "mean_time": "GMT-02:00"
+            },
+            {
+                "value": "-02:00",
+                "name": "Noronha",
+                "mean_time": "GMT-02:00"
+            },
+            {
+                "value": "-01:00",
+                "name": "Scoresbysund",
+                "mean_time": "GMT-01:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Danmarkshavn",
+                "mean_time": "GMT+00:00"
+            }
+        ]
+    },
+    {
+        "zone": "Atlantic",
+        "id": 2,
+        "mean_des": [
+            {
+                "value": "-04:00",
+                "name": "Bermuda",
+                "mean_time": "GMT-04:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Stanley",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-02:00",
+                "name": "South_Georgia",
+                "mean_time": "GMT-02:00"
+            },
+            {
+                "value": "-01:00",
+                "name": "Azores",
+                "mean_time": "GMT-01:00"
+            },
+            {
+                "value": "-01:00",
+                "name": "Cape_Verde",
+                "mean_time": "GMT-01:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Canary",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Faroe",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Reykjavik",
+                "mean_time": "GMT+00:00"
+            }
+        ]
+    },
+    {
+        "zone": "Antarctica",
+        "id": 3,
+        "mean_des": [
+            {
+                "value": "-03:00",
+                "name": "Palmer",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "-03:00",
+                "name": "Rothera",
+                "mean_time": "GMT-03:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Syowa",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Mawson",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Vostok",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Davis",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Casey",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "DumontDUrville",
+                "mean_time": "GMT+10:00"
+            }
+        ]
+    },
+    {
+        "zone": "Africa",
+        "id": 4,
+        "mean_des": [
+            {
+                "value": "+00:00",
+                "name": "Abidjan",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Accra",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Bissau",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Casablanca",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "El_Aaiun",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Monrovia",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Algiers",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Ceuta",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Lagos",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Ndjamena",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Tunis",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Windhoek",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Cairo",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Johannesburg",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Maputo",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Tripoli",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Khartoum",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Nairobi",
+                "mean_time": "GMT+03:00"
+            }
+        ]
+    },
+    {
+        "zone": "Etc",
+        "id": 5,
+        "mean_des": [
+            {
+                "value": "+00:00",
+                "zone": "Etc",
+                "name": "GMT",
+                "mean_time": "GMT+00:00"
+            }
+        ]
+    },
+    {
+        "zone": "Europe",
+        "id": 6,
+        "mean_des": [
+            {
+                "value": "+00:00",
+                "name": "Dublin",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "Lisbon",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+00:00",
+                "name": "London",
+                "mean_time": "GMT+00:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Amsterdam",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Andorra",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Belgrade",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Berlin",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Brussels",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Budapest",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Copenhagen",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Gibraltar",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Luxembourg",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Madrid",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Malta",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Monaco",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Oslo",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Paris",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Prague",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Rome",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Stockholm",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Tirane",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Vienna",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Warsaw",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+01:00",
+                "name": "Zurich",
+                "mean_time": "GMT+01:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Athens",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Bucharest",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Chisinau",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Helsinki",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Istanbul",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Kaliningrad",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Kiev",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Riga",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Sofia",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Tallinn",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Vilnius",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Minsk",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Moscow",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Samara",
+                "mean_time": "GMT+04:00"
+            }
+        ]
+    },
+    {
+        "zone": "Asia",
+        "id": 7,
+        "mean_des": [
+            {
+                "value": "+02:00",
+                "name": "Amman",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Beirut",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Damascus",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Gaza",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Jerusalem",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+02:00",
+                "name": "Nicosia",
+                "mean_time": "GMT+02:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Baghdad",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Qatar",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+03:00",
+                "name": "Riyadh",
+                "mean_time": "GMT+03:00"
+            },
+            {
+                "value": "+03:30",
+                "name": "Tehran",
+                "mean_time": "GMT+03:30"
+            },
+            {
+                "value": "+04:00",
+                "name": "Baku",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Dubai",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Tbilisi",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Yerevan",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:30",
+                "name": "Kabul",
+                "mean_time": "GMT+04:30"
+            },
+            {
+                "value": "+05:00",
+                "name": "Aqtau",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Aqtobe",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Ashgabat",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Dushanbe",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Karachi",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Tashkent",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Yekaterinburg",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:30",
+                "name": "Calcutta",
+                "mean_time": "GMT+05:30"
+            },
+            {
+                "value": "+05:30",
+                "name": "New Delhi",
+                "mean_time": "GMT+05:30"
+            },
+            {
+                "value": "+05:30",
+                "name": "Colombo",
+                "mean_time": "GMT+05:30"
+            },
+            {
+                "value": "+05:45",
+                "name": "Katmandu",
+                "mean_time": "GMT+05:45"
+            },
+            {
+                "value": "+06:00",
+                "name": "Almaty",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Bishkek",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Dhaka",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Omsk",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Thimphu",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:30",
+                "name": "Rangoon",
+                "mean_time": "GMT+06:30"
+            },
+            {
+                "value": "+07:00",
+                "name": "Bangkok",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Hovd",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Jakarta",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Krasnoyarsk",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Saigon",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+07:00",
+                "name": "Ho_Chi_Minh",
+                "mean_time": "GMT+07:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Brunei",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Choibalsan",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Hong_Kong",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Irkutsk",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Kuala_Lumpur",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Macau",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Makassar",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Manila",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Shanghai",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Singapore",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Taipei",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:00",
+                "name": "Ulaanbaatar",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+08:30",
+                "name": "Pyongyang",
+                "mean_time": "GMT+08:30"
+            },
+            {
+                "value": "+09:00",
+                "name": "Dili",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+09:00",
+                "name": "Jayapura",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+09:00",
+                "name": "Seoul",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+09:00",
+                "name": "Tokyo",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+09:00",
+                "name": "Yakutsk",
+                "mean_time": "GMT+09:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "Magadan",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+10:00",
+                "name": "Vladivostok",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+12:00",
+                "name": "Kamchatka",
+                "mean_time": "GMT+12:00"
+            }
+        ]
+    },
+    {
+        "zone": "Indian",
+        "id": 8,
+        "mean_des": [
+            {
+                "value": "+04:00",
+                "name": "Mahe",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Mauritius",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+04:00",
+                "name": "Reunion",
+                "mean_time": "GMT+04:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Kerguelen",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+05:00",
+                "name": "Maldives",
+                "mean_time": "GMT+05:00"
+            },
+            {
+                "value": "+06:00",
+                "name": "Chagos",
+                "mean_time": "GMT+06:00"
+            },
+            {
+                "value": "+06:30",
+                "name": "Cocos",
+                "mean_time": "GMT+06:30"
+            },
+            {
+                "value": "+07:00",
+                "name": "Christmas",
+                "mean_time": "GMT+07:00"
+            }
+        ]
+    },
+    {
+        "zone": "Australia",
+        "id": 9,
+        "mean_des": [
+            {
+                "value": "+08:00",
+                "name": "Perth",
+                "mean_time": "GMT+08:00"
+            },
+            {
+                "value": "+10:30",
+                "name": "Adelaide",
+                "mean_time": "GMT+10:30"
+            },
+            {
+                "value": "+09:30",
+                "name": "Darwin",
+                "mean_time": "GMT+09:30"
+            },
+            {
+                "value": "+10:00",
+                "name": "Brisbane",
+                "mean_time": "GMT+10:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Hobart",
+                "mean_time": "GMT+11:00"
+            },
+            {
+                "value": "+11:00",
+                "name": "Sydney",
+                "mean_time": "GMT+11:00"
+            }
+        ]
+    }
+]
