@@ -9,16 +9,16 @@ const LeftSidebar = ({ props: { menuSelect, setMenuSelect, buttonMenu } }) => {
     return (
         <div id="sidenavDashboard">
             <div className='dashboardNavSideHeader'>
-                <Link to='/' className='logo' style={{ gap: '4px' }}>
-                    <img src="/img/fav.png" alt="brand logo" id='logo' />
-                    <img src="/img/dashboard_logo.svg" alt="brand logo" id='full_logo' />
+                <Link to='/' className='logo' style={{ gap: '10px' }}>
+                    <img src="/assets/img/collab-icon.jpeg" alt="brand logo" id='logo' />
+                    <img src="/collab_talent_logo_dark.svg" alt="brand logo" id='full_logo' />
                 </Link>
             </div>
             <div id='menuList'>
                 {
                     buttonMenu?.map((r, index) => {
                         return (
-                            <EachButton menuSelect={menuSelect} setMenuSelect={setMenuSelect} r={r} />
+                            <EachButton menuSelect={menuSelect} setMenuSelect={setMenuSelect} menu={r} />
                         )
                     })
                 }
@@ -29,26 +29,28 @@ const LeftSidebar = ({ props: { menuSelect, setMenuSelect, buttonMenu } }) => {
 
 export default LeftSidebar;
 
-const EachButton = ({ setMenuSelect, menuSelect, r }) => {
+const EachButton = ({ setMenuSelect, menuSelect, menu }) => {
 
     useEffect(() => {
-        const menuList = document.getElementById("dashboardMenuButton" + r.value);
-        if (r?.value === menuSelect) {
+        const menuList = document.getElementById("dashboardMenuButton_" + menu.value);
+        if (menu?.value === menuSelect?.value) {
             menuList.classList.add('active')
         }
-        else{
+        else {
             menuList.classList.remove('active')
         }
-    }, [menuSelect, r])
+    }, [menuSelect, menu])
 
     return (
-        <button className='onlyIcon' onClick={() => setMenuSelect(r.value)} id={"dashboardMenuButton" + r.value}>
+        <button className='onlyIcon' onClick={() => setMenuSelect(menu)} id={"dashboardMenuButton_" + menu.value}>
             <span className='dashboardMenu'>
-                <UserEmail size='20' />
+                {
+                    menu?.icon
+                }
             </span>
             <span id='buttonTitle'>
                 {
-                    r?.html
+                    menu?.html
                 }
             </span>
         </button>
