@@ -78,7 +78,7 @@ const DashboardHeader = () => {
         }
         else {
             mainDashboard.style.margin = '0px'
-            dashboard_content.style.top = 80 + 'px'
+            dashboard_content.style.top = 10 + 'px'
             mainDashboard.style.width = (window.innerWidth - 20) + "px"
             // for hide menu list//
             for (const button of getMenuButton) {

@@ -4,26 +4,27 @@ import MainBody from './MainBody'
 import './dashboard.style.css'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Admin from '../ComponentEachRoute/Admin/Admin'
 import Android_original from './icon/Android_original'
+import Test from './test/Test'
+import Test2 from './test/Test2.js'
 
 const buttonMenu = [
     {
         html: 'Home',
         value: 'home',
-        component: <Admin />,
+        component: <Test />,
         icon: <Android_original size='30' />
     },
     {
         html: 'All User',
         value: 'all_user',
-        component: <Admin />,
+        component: <Test2 />,
         icon: <Android_original size='30' />
     },
     {
         html: 'Blogs',
         value: "blogs",
-        component: <Admin />,
+        component: "<Admin />",
         icon: <Android_original size='30' />
     }
 ]

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import UserEmail from './SVG/UserEmail';
 
 const LeftSidebar = ({ props: { menuSelect, setMenuSelect, buttonMenu } }) => {
@@ -9,10 +8,10 @@ const LeftSidebar = ({ props: { menuSelect, setMenuSelect, buttonMenu } }) => {
     return (
         <div id="sidenavDashboard">
             <div className='dashboardNavSideHeader'>
-                <Link to='/' className='logo' style={{ gap: '10px' }}>
-                    <img src="/assets/img/collab-icon.jpeg" alt="brand logo" id='logo' />
-                    <img src="/collab_talent_logo_dark.svg" alt="brand logo" id='full_logo' />
-                </Link>
+                <a href='/' className='logo' style={{ gap: '10px' }}>
+                    <img src="/favLogoDark.svg" alt="brand logo" id='logo' />
+                    <img src="/logo_dark.svg" alt="brand logo" id='full_logo' />
+                </a>
             </div>
             <div id='menuList'>
                 {
