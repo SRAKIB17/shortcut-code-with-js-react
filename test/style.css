@@ -37,6 +37,7 @@
 #scrollingDiv button:where(#prev):hover {
     opacity: 1;
 }
+
 /* ***************FOR RIGHT ***************** */
 
 #scrollingDiv button:where(#next) {
